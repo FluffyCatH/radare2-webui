@@ -265,7 +265,7 @@ Disasm.prototype.onfctmenu = function(evt, fct) {
 		return;
 	}
 
-	r2.cmd('fr ' + newName + '@ ' + offset);
+	r2.cmd('afn ' + newName + '@ ' + offset);
 };
 
 Disasm.prototype.onvarmenu = function(evt, varName) {
